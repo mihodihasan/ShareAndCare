@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/singup"
+    android:weightSum="1">
+
+
+
+
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="339dp"
+        android:hint="Enter ID"
+        android:padding="5dp"
+        android:layout_marginTop="40dp"
+        android:background="#ffffb3"
+        android:textColorHint="#8a8a5c"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="339dp"
+        android:padding="5dp"
+        android:textColorHint="#8a8a5c"
+        android:layout_marginTop="10dp"
+        android:background="#ffffb3"
+        android:hint="@string/Name"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="339dp"
+        android:padding="5dp"
+        android:textColorHint="#8a8a5c"
+        android:layout_marginTop="10dp"
+        android:background="#ffffb3"
+        android:hint="@string/Location"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etContact"
+        android:layout_width="339dp"
+        android:padding="5dp"
+        android:hint="@string/Contact"
+        android:layout_marginTop="10dp"
+        android:background="#ffffb3"
+        android:textColorHint="#8a8a5c"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etNewPassword"
+        android:layout_width="339dp"
+        android:padding="5dp"
+        android:textColorHint="#8a8a5c"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:background="#ffffb3"
+        android:hint="@string/Enter_Password"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupOwner"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etNewPassword"
+        android:background="#ffffb3"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Restaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:checked="true"
+            android:buttonTint="@android:color/black"
+            android:paddingBottom="5dp"
+            android:text="Restaurant" />
+
+        <RadioButton
+            android:id="@+id/Orphanage"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingBottom="5dp"
+            android:buttonTint="@android:color/black"
+            android:text="Orphanage" />
+
+    </RadioGroup>
+
+
+
+    <CheckBox
+        android:layout_width="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Agree"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="#ff3300"
+        android:id="@+id/checkBox"
+        android:checked="false" />
+
+    <Button
+        android:id="@+id/bsignin"
+        android:text="@string/SignIn"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="#e62e00"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

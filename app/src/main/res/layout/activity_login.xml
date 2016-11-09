@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/login"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/EnterUserName"
+        android:textColor="#004d4d"
+        android:layout_marginTop="160dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="339dp"
+        android:height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/Password"
+        android:textSize="20sp"
+        android:textColor="#004d4d"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="339dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.03" />
+
+
+
+    <Button
+        android:id="@+id/blogin"
+        android:text="@string/Login"
+        android:textSize="20sp"
+        android:background="#ffe066"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:text="Not already signed in?"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#004d4d"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>
+    
